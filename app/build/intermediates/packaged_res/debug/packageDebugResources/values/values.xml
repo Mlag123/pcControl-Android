@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Gray">#787878</color>
+    <color name="Purple">#545bb4</color>
+    <color name="ShadowPurple">#f018ff</color>
+    <color name="black">#FF000000</color>
+    <color name="spaceblack">#1e1e1e</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">pccontrol</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <style name="Base.Theme.Pccontrol" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Pccontrol" parent="Base.Theme.Pccontrol"/>
+</resources>
