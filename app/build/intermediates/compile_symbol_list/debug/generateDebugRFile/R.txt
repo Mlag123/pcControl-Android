@@ -1,3 +1,9 @@
+int anim fade_in 0x0
+int anim fade_out 0x0
+int anim slide_in_left 0x0
+int anim slide_in_right 0x0
+int anim slide_out_left 0x0
+int anim slide_out_right 0x0
 int color Gray 0x0
 int color Purple 0x0
 int color ShadowPurple 0x0
@@ -9,6 +15,7 @@ int drawable home 0x0
 int drawable ic_launcher_background 0x0
 int drawable ic_launcher_foreground 0x0
 int drawable outline_add_24 0x0
+int drawable save 0x0
 int drawable senddraw 0x0
 int drawable settings 0x0
 int id actionListenerLay 0x0

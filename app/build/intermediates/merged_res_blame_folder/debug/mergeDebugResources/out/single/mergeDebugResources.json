@@ -1,23 +1,27 @@
 [
     {
-        "merged": "com.example.pccontrol.app-debug-33:/layout_fragment_win_app.xml.flat",
-        "source": "com.example.pccontrol.app-main-35:/layout/fragment_win_app.xml"
+        "merged": "com.example.pccontrol.app-debug-33:/anim_fade_in.xml.flat",
+        "source": "com.example.pccontrol.app-main-35:/anim/fade_in.xml"
     },
     {
         "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\drawable_outline_add_24.xml.flat",
         "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\drawable\\outline_add_24.xml"
     },
     {
-        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\layout_fragment_settings.xml.flat",
-        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\layout\\fragment_settings.xml"
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\drawable_save.xml.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\drawable\\save.xml"
     },
     {
         "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -46,6 +50,10 @@
     {
         "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\drawable_home.xml.flat",
         "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\drawable\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\anim\\fade_out.xml"
     },
     {
         "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -84,8 +92,8 @@
         "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.pccontrol.app-debug-33:/layout_fragment_create_action.xml.flat",
-        "source": "com.example.pccontrol.app-main-35:/layout/fragment_create_action.xml"
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\layout_fragment_create_action.xml.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\layout\\fragment_create_action.xml"
     },
     {
         "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\drawable_ic_launcher_background.xml.flat",
@@ -96,8 +104,28 @@
         "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "com.example.pccontrol.app-debug-33:/anim_fade_out.xml.flat",
+        "source": "com.example.pccontrol.app-main-35:/anim/fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\anim\\fade_in.xml"
+    },
+    {
         "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\drawable_console.xml.flat",
         "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\drawable\\console.xml"
+    },
+    {
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\anim\\slide_in_right.xml"
     },
     {
         "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\layout_fragment_console.xml.flat",
@@ -110,5 +138,9 @@
     {
         "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-debug-33:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\MLag\\.gradle\\daemon\\9.3.1\\com.example.pccontrol.app-main-35:\\anim\\slide_out_left.xml"
     }
 ]

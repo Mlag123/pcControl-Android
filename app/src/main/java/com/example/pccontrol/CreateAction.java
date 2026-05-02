@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link createAction#newInstance} factory method to
+ * Use the {@link CreateAction#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class createAction extends Fragment {
+public class CreateAction extends Fragment {
 
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
@@ -21,11 +21,14 @@ public class createAction extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public createAction() {
+    public CreateAction() {
     }
 
-    public static createAction newInstance(String param1, String param2) {
-        createAction fragment = new createAction();
+
+
+
+    public static CreateAction newInstance(String param1, String param2) {
+        CreateAction fragment = new CreateAction();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

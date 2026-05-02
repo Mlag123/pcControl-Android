@@ -33,6 +33,8 @@ public class WinAppFragment extends Fragment {
     public WinAppFragment() {
     }
 
+    private CreateAction createActionFragment = new CreateAction();
+
     public static WinAppFragment newInstance(String param1, String param2) {
         WinAppFragment fragment = new WinAppFragment();
         Bundle args = new Bundle();
@@ -68,16 +70,28 @@ public class WinAppFragment extends Fragment {
     }
 
 
+
+
+
     private void listenerAction(){
         actionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 ConsoleManager.add("Test!", Color.GREEN);
-                addButt();
+                setNewFragment(createActionFragment);
             }
         });
     }
 
+
+
+
+    private void setNewFragment(Fragment fragment) {
+        if (getActivity() instanceof MainActivity){
+             ((MainActivity) getActivity()).setNewFragment(fragment);
+        }
+
+    }
 
     private void addButt(){
 

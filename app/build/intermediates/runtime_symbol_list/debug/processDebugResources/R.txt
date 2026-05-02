@@ -26,6 +26,8 @@ int anim design_bottom_sheet_slide_in 0x7f010018
 int anim design_bottom_sheet_slide_out 0x7f010019
 int anim design_snackbar_in 0x7f01001a
 int anim design_snackbar_out 0x7f01001b
+int anim fade_in 0x7f01002c
+int anim fade_out 0x7f01002d
 int anim fragment_fast_out_extra_slow_in 0x7f01001c
 int anim linear_indeterminate_line1_head_interpolator 0x7f01001d
 int anim linear_indeterminate_line1_tail_interpolator 0x7f01001e
@@ -42,6 +44,10 @@ int anim m3_side_sheet_exit_to_right 0x7f010028
 int anim mtrl_bottom_sheet_slide_in 0x7f010029
 int anim mtrl_bottom_sheet_slide_out 0x7f01002a
 int anim mtrl_card_lowers_interpolator 0x7f01002b
+int anim slide_in_left 0x7f01002e
+int anim slide_in_right 0x7f01002f
+int anim slide_out_left 0x7f010030
+int anim slide_out_right 0x7f010031
 int animator chevron_checked_unchecked 0x7f020000
 int animator chevron_unchecked_checked 0x7f020001
 int animator design_appbar_state_list_animator 0x7f020002
@@ -3658,6 +3664,7 @@ int drawable notification_template_icon_low_bg 0x7f0700e6
 int drawable notification_tile_bg 0x7f0700e7
 int drawable notify_panel_notification_icon_bg 0x7f0700e8
 int drawable outline_add_24 0x7f0700ee
+int drawable save 0x7f0700ef
 int drawable senddraw 0x7f0700e9
 int drawable settings 0x7f0700ea
 int drawable test_level_drawable 0x7f0700eb

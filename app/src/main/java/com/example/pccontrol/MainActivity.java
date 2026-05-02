@@ -71,9 +71,28 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void setNewFragment(Fragment fragment) {
+
+    public void switchFragment(Fragment fragment, String tag) {
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.setCustomAnimations(
+             R.anim.fade_in,
+                R.anim.fade_out
+
+        );
+
         ft.replace(R.id.fameMain, fragment);
+        ft.addToBackStack(tag);
+        ft.commit();
+    }
+    public  void setNewFragment(Fragment fragment) {
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.setCustomAnimations(
+                R.anim.fade_in,   // enter
+                R.anim.fade_out   // exit
+
+        );
+        ft.replace(R.id.fameMain, fragment);
+        ft.addToBackStack(null);
         ft.commit();
 
     }
