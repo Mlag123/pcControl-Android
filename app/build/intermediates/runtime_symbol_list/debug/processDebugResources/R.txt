@@ -1234,6 +1234,7 @@ int attr suffixText 0x7f030476
 int attr suffixTextAppearance 0x7f030477
 int attr suffixTextColor 0x7f030478
 int attr suggestionRowLayout 0x7f030479
+int attr swipeRefreshLayoutProgressSpinnerBackgroundColor 0x7f030576
 int attr switchMinWidth 0x7f03047a
 int attr switchPadding 0x7f03047b
 int attr switchStyle 0x7f03047c
@@ -3566,6 +3567,7 @@ int drawable design_ic_visibility 0x7f070084
 int drawable design_ic_visibility_off 0x7f070085
 int drawable design_password_eye 0x7f070086
 int drawable design_snackbar_background 0x7f070087
+int drawable github_ico 0x7f0700f0
 int drawable home 0x7f070088
 int drawable ic_arrow_back_black_24 0x7f070089
 int drawable ic_call_answer 0x7f07008a
@@ -3667,6 +3669,7 @@ int drawable outline_add_24 0x7f0700ee
 int drawable save 0x7f0700ef
 int drawable senddraw 0x7f0700e9
 int drawable settings 0x7f0700ea
+int drawable tasklistui 0x7f0700f1
 int drawable test_level_drawable 0x7f0700eb
 int drawable tooltip_frame_dark 0x7f0700ec
 int drawable tooltip_frame_light 0x7f0700ed
@@ -3852,6 +3855,7 @@ int id easeInOut 0x7f0800b0
 int id easeOut 0x7f0800b1
 int id east 0x7f0800b2
 int id edge 0x7f0800b3
+int id editTextText3 0x7f080220
 int id edit_query 0x7f0800b4
 int id edit_text_id 0x7f0800b5
 int id elastic 0x7f0800b6
@@ -4052,6 +4056,8 @@ int id pin 0x7f080178
 int id position 0x7f080179
 int id postLayout 0x7f08017a
 int id pressed 0x7f08017b
+int id processName 0x7f080223
+int id processPid 0x7f080224
 int id progress_circular 0x7f08017c
 int id progress_horizontal 0x7f08017d
 int id radio 0x7f08017e
@@ -4067,6 +4073,7 @@ int id right_side 0x7f080187
 int id rootLay 0x7f080188
 int id rounded 0x7f080189
 int id row_index_key 0x7f08018a
+int id saveButt 0x7f080221
 int id save_non_transition_alpha 0x7f08018b
 int id save_overlay_view 0x7f08018c
 int id sawtooth 0x7f08018d
@@ -4148,6 +4155,9 @@ int id tag_transition_group 0x7f0801d8
 int id tag_unhandled_key_event_manager 0x7f0801d9
 int id tag_unhandled_key_listeners 0x7f0801da
 int id tag_window_insets_animation_callback 0x7f0801db
+int id taskListsView 0x7f080225
+int id tasklistId 0x7f080222
+int id taskswipeRefresh 0x7f080226
 int id text 0x7f0801dc
 int id text2 0x7f0801dd
 int id textEnd 0x7f0801de
@@ -4348,9 +4358,11 @@ int layout design_text_input_start_icon 0x7f0b002c
 int layout fragment_console 0x7f0b002d
 int layout fragment_create_action 0x7f0b0071
 int layout fragment_settings 0x7f0b002e
+int layout fragment_task_list_frame 0x7f0b0072
 int layout fragment_win_app 0x7f0b002f
 int layout ime_base_split_test_activity 0x7f0b0030
 int layout ime_secondary_split_test_activity 0x7f0b0031
+int layout item_process 0x7f0b0073
 int layout m3_alert_dialog 0x7f0b0032
 int layout m3_alert_dialog_actions 0x7f0b0033
 int layout m3_alert_dialog_title 0x7f0b0034
@@ -7762,6 +7774,8 @@ int[] styleable StateListSizeChange { 0x7f030568 }
 int styleable StateListSizeChange_widthChange 0
 int[] styleable StateSet { 0x7f030195 }
 int styleable StateSet_defaultState 0
+int[] styleable SwipeRefreshLayout { 0x7f030576 }
+int styleable SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor 0
 int[] styleable SwitchCompat { 0x01010124, 0x01010125, 0x01010142, 0x7f030434, 0x7f030449, 0x7f03047a, 0x7f03047b, 0x7f03047d, 0x7f0304fc, 0x7f0304fd, 0x7f0304fe, 0x7f03052b, 0x7f030541, 0x7f030542 }
 int styleable SwitchCompat_android_textOn 0
 int styleable SwitchCompat_android_textOff 1
@@ -8037,3 +8051,4 @@ int xml m3_button_group_child_size_change 0x7f130002
 int xml m3_split_button_inner_corner_size_state_list 0x7f130003
 int xml m3expressive_button_shape_state_list 0x7f130004
 int xml m3expressive_connected_buttons_inner_corner_size_state_list 0x7f130005
+int xml network_security_config 0x7f130006

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:2:1-29:12
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\3bebf34897401822d8ddc36cd5fef67b\workspace\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\MLag\.gradle\caches\9.3.1\transforms\57584335a19ec4a31fdaa20b9d8aea7e\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\MLag\.gradle\caches\9.3.1\transforms\999795935c17ccc1439a90c950393c7e\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
@@ -12,6 +12,7 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\MLag\.gradle\caches\
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\MLag\.gradle\caches\9.3.1\transforms\bce45dc46a7c785dcd2bea9f43e358cd\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\77d64c9f07d524ee02b489a6e5216f36\workspace\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.gridlayout:gridlayout:1.1.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\81e5403f6889d8e16d7177afb14dedca\workspace\transformed\gridlayout-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\215ef2e1da3c309cc415ba0bdcc3b23f\workspace\transformed\swiperefreshlayout-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\MLag\.gradle\caches\9.3.1\transforms\2ccdb656dd3c9be9ec0670440e4943d5\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\MLag\.gradle\caches\9.3.1\transforms\77ccfa0d49b4377d9092ae6fa1e87c26\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\8fb28d9faca9cede504233f5634d6e89\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
@@ -58,8 +59,8 @@ ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidMan
 	android:name
 		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:6:5-24:19
-INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:6:5-24:19
+ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:6:5-27:19
+INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:6:5-27:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\3bebf34897401822d8ddc36cd5fef67b\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\3bebf34897401822d8ddc36cd5fef67b\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\MLag\.gradle\caches\9.3.1\transforms\57584335a19ec4a31fdaa20b9d8aea7e\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -94,24 +95,26 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ML
 		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
 		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:14:9-47
+	android:networkSecurityConfig
+		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:15:9-69
 	android:dataExtractionRules
 		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:8:9-65
 activity#com.example.pccontrol.MainActivity
-ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:exported
-		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\MLag\AndroidStudioProjects\pccontrol\app\src\main\AndroidManifest.xml
@@ -132,6 +135,8 @@ MERGED from [androidx.activity:activity:1.8.0] C:\Users\MLag\.gradle\caches\9.3.
 MERGED from [androidx.activity:activity:1.8.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\77d64c9f07d524ee02b489a6e5216f36\workspace\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.gridlayout:gridlayout:1.1.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\81e5403f6889d8e16d7177afb14dedca\workspace\transformed\gridlayout-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.gridlayout:gridlayout:1.1.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\81e5403f6889d8e16d7177afb14dedca\workspace\transformed\gridlayout-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\215ef2e1da3c309cc415ba0bdcc3b23f\workspace\transformed\swiperefreshlayout-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.2.0] C:\Users\MLag\.gradle\caches\9.3.1\transforms\215ef2e1da3c309cc415ba0bdcc3b23f\workspace\transformed\swiperefreshlayout-1.2.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\MLag\.gradle\caches\9.3.1\transforms\2ccdb656dd3c9be9ec0670440e4943d5\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\MLag\.gradle\caches\9.3.1\transforms\2ccdb656dd3c9be9ec0670440e4943d5\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\MLag\.gradle\caches\9.3.1\transforms\77ccfa0d49b4377d9092ae6fa1e87c26\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44

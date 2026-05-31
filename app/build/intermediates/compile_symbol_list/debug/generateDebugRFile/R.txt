@@ -11,6 +11,7 @@ int color black 0x0
 int color spaceblack 0x0
 int color white 0x0
 int drawable console 0x0
+int drawable github_ico 0x0
 int drawable home 0x0
 int drawable ic_launcher_background 0x0
 int drawable ic_launcher_foreground 0x0
@@ -18,11 +19,13 @@ int drawable outline_add_24 0x0
 int drawable save 0x0
 int drawable senddraw 0x0
 int drawable settings 0x0
+int drawable tasklistui 0x0
 int id actionListenerLay 0x0
 int id bottomNavigationView2 0x0
 int id consoleBut 0x0
 int id consolePlain 0x0
 int id createActionBut 0x0
+int id editTextText3 0x0
 int id espIpAddressPlain 0x0
 int id fameMain 0x0
 int id filePickerButton 0x0
@@ -32,12 +35,18 @@ int id ipAddressPlain 0x0
 int id linearLayout3 0x0
 int id linearLayoutInput 0x0
 int id main 0x0
+int id processName 0x0
+int id processPid 0x0
 int id rootLay 0x0
+int id saveButt 0x0
 int id scrollView2 0x0
 int id scrollViewConsole 0x0
 int id securePathPlain 0x0
 int id sendButton 0x0
 int id settingsBut 0x0
+int id taskListsView 0x0
+int id tasklistId 0x0
+int id taskswipeRefresh 0x0
 int id textView3 0x0
 int id tvConsole 0x0
 int id useHttpSwitch 0x0
@@ -45,7 +54,9 @@ int layout activity_main 0x0
 int layout fragment_console 0x0
 int layout fragment_create_action 0x0
 int layout fragment_settings 0x0
+int layout fragment_task_list_frame 0x0
 int layout fragment_win_app 0x0
+int layout item_process 0x0
 int menu bottom_nav_menu 0x0
 int mipmap ic_launcher 0x0
 int mipmap ic_launcher_round 0x0
@@ -55,3 +66,4 @@ int style Base_Theme_Pccontrol 0x0
 int style Theme_Pccontrol 0x0
 int xml backup_rules 0x0
 int xml data_extraction_rules 0x0
+int xml network_security_config 0x0

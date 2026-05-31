@@ -12,6 +12,7 @@ color black
 color spaceblack
 color white
 drawable console
+drawable github_ico
 drawable home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -19,11 +20,13 @@ drawable outline_add_24
 drawable save
 drawable senddraw
 drawable settings
+drawable tasklistui
 id actionListenerLay
 id bottomNavigationView2
 id consoleBut
 id consolePlain
 id createActionBut
+id editTextText3
 id espIpAddressPlain
 id fameMain
 id filePickerButton
@@ -33,12 +36,18 @@ id ipAddressPlain
 id linearLayout3
 id linearLayoutInput
 id main
+id processName
+id processPid
 id rootLay
+id saveButt
 id scrollView2
 id scrollViewConsole
 id securePathPlain
 id sendButton
 id settingsBut
+id taskListsView
+id tasklistId
+id taskswipeRefresh
 id textView3
 id tvConsole
 id useHttpSwitch
@@ -46,7 +55,9 @@ layout activity_main
 layout fragment_console
 layout fragment_create_action
 layout fragment_settings
+layout fragment_task_list_frame
 layout fragment_win_app
+layout item_process
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -56,3 +67,4 @@ style Base_Theme_Pccontrol
 style Theme_Pccontrol
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

@@ -1,5 +1,8 @@
 package com.example.pccontrol;
 
+import static android.content.Context.MODE_PRIVATE;
+
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -12,7 +15,11 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.example.pccontrol.Systems.ConsoleManager;
+import com.example.pccontrol.Utils.ActionItem;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -29,6 +36,8 @@ public class WinAppFragment extends Fragment {
 
     private String mParam1;
     private String mParam2;
+
+
 
     public WinAppFragment() {
     }
@@ -52,6 +61,8 @@ public class WinAppFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
+
+
 
 
     private void init(View view){

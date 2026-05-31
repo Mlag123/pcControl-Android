@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
+import com.example.pccontrol.Core.APIConnect;
 import com.example.pccontrol.Core.HttpConnect;
 import com.example.pccontrol.Systems.CommandManager;
 import com.example.pccontrol.Systems.ConsoleManager;
@@ -117,6 +118,7 @@ public class ConsoleFragment extends Fragment {
         init(view);
         addStartingMessage();
         logcat();
+        APIConnect.getProcess();
 
         ConsoleManager.setOnUpdateCallback(() -> {
             // ✅ Проверяем, что фрагмент все еще прикреплен к Activity

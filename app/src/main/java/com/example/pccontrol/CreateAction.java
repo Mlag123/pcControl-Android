@@ -1,5 +1,8 @@
 package com.example.pccontrol;
 
+import static android.content.Context.MODE_PRIVATE;
+
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +10,13 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.pccontrol.Utils.ActionItem;
+import com.google.gson.Gson;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -24,7 +34,9 @@ public class CreateAction extends Fragment {
     public CreateAction() {
     }
 
+    private SharedPreferences preferences;
 
+    private List<ActionItem> actionItemList = new ArrayList<>();
 
 
     public static CreateAction newInstance(String param1, String param2) {
@@ -47,7 +59,27 @@ public class CreateAction extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        preferences = requireContext().getSharedPreferences("actions",MODE_PRIVATE);
+
     }
+
+    private void saveActions(){
+        Gson gson = new Gson();
+        String json = gson.toJson(actionItemList);
+        preferences.edit().putString("action_list",json).apply();
+
+    }
+
+    private void loadActions(){
+        Gson gson = new Gson();
+        String json = preferences.getString("action_list","[]");
+        ActionItem[] items = gson.fromJson(json, ActionItem[].class);
+        actionItemList.clear();
+        actionItemList.addAll(Arrays.asList(items));
+
+        //создаем кнопки
+    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

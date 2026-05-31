@@ -4,6 +4,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.SwitchCompat;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -36,8 +37,8 @@ public class SettingsFragment extends Fragment {
     private EditText ipAddressPlain;
     private EditText espIpAdressPlain;
     private EditText securePathPlain;
-    private Switch use_https;
-    private Switch allowFurry;
+    private SwitchCompat use_https;
+    private SwitchCompat allowFurry;
 
     private Button filePickerSecureFile;
 

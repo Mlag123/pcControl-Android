@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private ConsoleFragment consoleFragment = new ConsoleFragment();
     private SettingsFragment settingsFragment = new SettingsFragment();
 
+    private TaskListFrame taskListFrame = new TaskListFrame();
 
 
 
@@ -61,6 +62,10 @@ public class MainActivity extends AppCompatActivity {
             }
             if (item.getItemId() == R.id.settingsBut) {
                 setNewFragment(settingsFragment);
+                return true;
+            }
+            if(item.getItemId()==R.id.tasklistId){
+                setNewFragment(taskListFrame);
                 return true;
             }
 
